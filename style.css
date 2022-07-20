@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik:wght@500&display=swap');
 
-/* comon properties */
+/*-----------------
+ comon properties 
+ ------------------*/
 body {
     font-family: 'Poppins', sans-serif;
     font-family: 'Rubik', sans-serif;
@@ -8,7 +10,9 @@ body {
 }
 
 
-/* header section */
+/*----------------
+ header section
+ ----------------- */
 .header-info {
     background-color: #161616;
     width: 1321px;
@@ -67,4 +71,71 @@ body {
     height: 613px;
     margin-left: 50px;
     margin-top: 33px;
+}
+
+/*-----------------------
+optionas and blogs starts 
+--------------------------*/
+.blogs {
+    width: 1321px;
+}
+
+.options {
+
+    background-color: #161616;
+    height: 312px;
+    width: 312px;
+    border-radius: 10px;
+
+}
+
+.list-style li {
+    list-style-type: none;
+    align-items: center;
+
+
+
+}
+
+.non-selected-one a {
+
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 15px 30px;
+}
+
+.non-selected-one {
+    margin-top: 100px;
+    padding-top: 70px;
+}
+
+.non-selected-two a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 15px 68px;
+
+}
+
+.non-selected-two {
+    margin-top: 50px;
+}
+
+.selected a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: #DD0000;
+    padding: 15px 90px;
+
+}
+
+.selected {
+    margin-top: 50px;
 }
