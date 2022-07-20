@@ -116,6 +116,11 @@ options and blogs starts
     padding: 15px 30px;
 }
 
+.non-selected-one a:hover {
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
+
 .non-selected-one {
 
     padding-top: 55px;
@@ -157,7 +162,7 @@ blogs styke starts
     width: 312px;
     height: 362px;
     border-radius: 10px;
-    box-shadow: 2px 2px #eeeeee;
+    box-shadow: 1px 1px 5px 1px #eeeeee;
     margin-left: 18px;
 
 
@@ -219,7 +224,7 @@ footer {
     width: 100%;
     height: 444px;
     background-color: #161616;
-    margin-top: 50px;
+    margin-top: 100px;
 
 
 }
@@ -270,4 +275,5 @@ footer hr {
 
 .icons i {
     margin-left: 5px;
+
 }
