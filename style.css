@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik:wght@500&display=swap');
+
+/* comon properties */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+
+/* header section */
+.header-info {
+    background-color: #161616;
+}
