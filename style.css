@@ -184,12 +184,17 @@ blogs styke starts
     border-radius: 5px;
 }
 
+.blog-details a:hover {
+    background-color: #161616;
+    color: #FFFFFF;
+}
+
 .blog-details h3 {
     padding: 10px 15px;
     font-size: 18px;
 }
 
-.course-duration {
+.match-time {
     display: flex;
     margin-left: 12px;
     font-size: 16px;
@@ -212,6 +217,32 @@ blogs styke starts
     display: flex;
     margin-top: 100px;
 }
+
+
+/*--------------- 
+view all button 
+-----------------*/
+
+.view-all a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px 30px;
+    background-color: #DD0000;
+    border-radius: 5px;
+
+
+}
+
+.view-all {
+    display: none;
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+
+
 
 /*-------------- 
 footer starts
@@ -266,6 +297,7 @@ footer hr {
     margin-bottom: 50px;
 }
 
+
 .icons {
     color: #FFFFFF;
     font-size: 30px;
@@ -276,4 +308,155 @@ footer hr {
 .icons i {
     margin-left: 5px;
 
+
+
+}
+
+/*---------------
+Meadia Queries 
+-----------------*/
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    body {
+        width: 100%;
+
+
+    }
+
+    .wrap {
+        overflow-x: hidden;
+    }
+
+    .view-all {
+        display: block;
+    }
+
+    .header-info {
+        width: 734px;
+        height: 398px;
+        overflow-x: hidden;
+    }
+
+    .big-titles h1 {
+        font-size: 30px;
+        font-weight: bold;
+
+    }
+
+    .big-titles p {
+        font-size: 13px;
+    }
+
+    .big-titles a {}
+
+    .blogs {
+        width: 734px;
+    }
+
+    .blogs-options {
+        display: block;
+        margin-top: 0;
+
+    }
+
+    .blog-info {
+        margin-top: 0px;
+    }
+
+    .header-image img {
+        width: 323px;
+        height: 340px;
+        margin-top: 58px;
+    }
+
+
+    .blogs-style {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+
+
+    }
+
+    .options {
+        background-color: transparent;
+        margin-bottom: -150px;
+
+    }
+
+    .list-style {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 734px;
+
+
+    }
+
+    .non-selected-one {
+        margin-left: 60px;
+
+    }
+
+
+
+    .non-selected-one a {
+        border: 1px solid #161616;
+        border-radius: 5px;
+        padding: 5px 15px;
+
+    }
+
+
+    .non-selected-two a {
+        border: 1px solid #161616;
+        border-radius: 5px;
+        font-size: 20px;
+        padding: 5px 40px;
+    }
+
+    .non-selected-two {
+        margin-right: 10px;
+    }
+
+    .selected a {
+        padding: 7px 60px;
+    }
+
+    .list-style li {
+        margin-left: 20px;
+    }
+
+    .selected {
+        margin-right: 100px;
+    }
+
+
+
+    footer {
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    footer hr {
+        width: 734px;
+    }
+
+    .footer-links li {
+        list-style-type: none;
+        margin-left: 50px;
+
+
+    }
+
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .new-line {
+        margin: 20px;
+    }
 }
